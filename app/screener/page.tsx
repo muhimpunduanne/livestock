@@ -32,11 +32,17 @@ export default function ScreenerPage() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)]">
-      <div className="px-6 py-4 border-b border-gray-800">
-        <h1 className="text-xl font-semibold">Stock Screener</h1>
-        <p className="text-sm text-gray-500 mt-0.5">
-          Real-time streaming across 5,000+ instruments
-        </p>
+      <div className="px-6 py-4 border-b border-gray-800/80 bg-gray-900/40 flex items-center justify-between">
+        <div>
+          <h1 className="text-xl font-semibold text-gray-100">Stock Screener</h1>
+          <p className="text-sm text-gray-500 mt-0.5">
+            Real-time streaming across 5,000+ instruments
+          </p>
+        </div>
+        <div className="hidden sm:flex items-center gap-1.5 text-xs text-gray-600 bg-gray-800/60 px-3 py-1.5 rounded-lg border border-gray-700/40">
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+          Streaming live
+        </div>
       </div>
       <FilterBar />
       <div className="flex-1 overflow-hidden">
