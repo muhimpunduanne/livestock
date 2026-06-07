@@ -33,7 +33,7 @@ const OVERLAY_COLORS: Record<Overlay, string> = {
 };
 
 const OVERLAY_LABELS: Record<Overlay, string> = {
-  MA: "MA(20)",
+  MA: "MA(10)",
   EMA: "EMA(20)",
   RSI: "RSI(14)",
   MACD: "MACD",
