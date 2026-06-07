@@ -32,7 +32,7 @@ export default function FilterBar() {
           placeholder="Search symbol or name…"
           value={filters.search}
           onChange={(e) => setFilters({ search: e.target.value })}
-          className={`${inputCls} pl-8 pr-3 py-1.5 w-56`}
+          className={`${inputCls} pl-8 pr-3 py-1.4 w-56`}
         />
       </div>
 
