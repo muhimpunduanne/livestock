@@ -17,7 +17,7 @@ function SearchIcon() {
   );
 }
 
-const inputCls = "bg-gray-800/70 border border-gray-700/60 rounded-lg text-sm text-gray-100 placeholder-gray-500 focus:outline-none focus:border-emerald-500/70 focus:bg-gray-800 transition-colors";
+const inputCls = "bg-gray-700/70 border border-gray-700/60 rounded-lg text-sm text-gray-100 placeholder-gray-500 focus:outline-none focus:border-emerald-500/70 focus:bg-gray-800 transition-colors";
 const selectCls = `${inputCls} px-3 py-1.5 cursor-pointer`;
 
 export default function FilterBar() {
