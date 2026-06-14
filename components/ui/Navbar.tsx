@@ -13,7 +13,7 @@ const LINKS = [
 function LogoIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
-      <rect x="1" y="10" width="3.5" height="7" rx="1" fill="#10b981" />
+      <rect x="1" y="20" width="3.5" height="7" rx="1" fill="#10b981" />
       <rect x="7.25" y="6" width="3.5" height="11" rx="1" fill="#10b981" opacity="0.7" />
       <rect x="13.5" y="2" width="3.5" height="15" rx="1" fill="#10b981" opacity="0.4" />
     </svg>
